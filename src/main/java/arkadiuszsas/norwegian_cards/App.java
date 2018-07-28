@@ -9,7 +9,8 @@ public class App
     public static void main( String[] args ) throws SQLException
     {
         System.out.println( "Hello World!" );
-        //DatabaseManagement controller = new CreateTable("TEST");
-        //DatabaseManagement controller = new DropTable("TEST");
+        
+        //DO NOT FORGET TO CLOSE CONNECTION!
+        new CloseConnection();  
     }
 }

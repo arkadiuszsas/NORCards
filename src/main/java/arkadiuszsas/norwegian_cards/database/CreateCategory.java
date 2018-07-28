@@ -2,13 +2,15 @@ package arkadiuszsas.norwegian_cards.database;
 
 import java.sql.SQLException;
 
-public class CreateTable extends DatabaseManagement{
-
-	public CreateTable(String tableName) throws SQLException {
-		//this.getConnection();
+public class CreateCategory extends DatabaseManagement{
+	
+	//To add word category type: DatabaseManagement controller = new CreateCategory("table name");
+	
+	public CreateCategory(String tableName) throws SQLException {
+		super();
 		createTable(tableName);
 	}
-	
+
 	private void createTable(String tableName) throws SQLException {
 		System.out.println("Creating table...");
 		

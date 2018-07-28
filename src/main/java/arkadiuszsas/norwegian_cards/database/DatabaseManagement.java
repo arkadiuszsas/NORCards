@@ -20,7 +20,7 @@ public class DatabaseManagement {
 			
 		    //get connection to database
 			myConn = DriverManager.getConnection(getDbUrl(), getUserName(), getPassword());
-			System.out.println("Connected to database...");
+			//System.out.println("Connected to database...");
 			
 			//create a statement
 			myStmt = myConn.createStatement();			
@@ -28,22 +28,7 @@ public class DatabaseManagement {
 					
 		catch (Exception exc){
 			exc.printStackTrace();
-		}
-		
-		/*finally {
-			if (myRs != null) {
-				myRs.close();
-			}
-			
-			if (myStmt != null) {
-				myStmt.close();
-			}
-			
-			if (myConn != null) {
-				myConn.close();
-			}
-		}
-		*/
+		}		
 	}
 		
 	private static String getDbUrl() {
