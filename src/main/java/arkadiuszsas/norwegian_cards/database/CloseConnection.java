@@ -4,6 +4,8 @@ import java.sql.SQLException;
 
 public class CloseConnection extends DatabaseManagement {
 
+	//to close connection type: new CloseConnection();
+	
 	public CloseConnection() throws SQLException {
 		super();
 		

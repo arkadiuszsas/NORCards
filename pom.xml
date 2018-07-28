@@ -27,7 +27,21 @@
 	    <groupId>mysql</groupId>
 	    <artifactId>mysql-connector-java</artifactId>
 	    <version>8.0.11</version>
-	</dependency>
-   
+	</dependency>   
   </dependencies>
+  
+  <build>
+  	<plugins>
+        <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>exec-maven-plugin</artifactId>
+            <version>1.2.1</version>
+            <configuration>
+                <mainClass>arkadiuszsas.norwegian_cards.App</mainClass>
+            </configuration>
+        </plugin>
+  	</plugins>
+  </build>
+
+  
 </project>
