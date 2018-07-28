@@ -1,1 +1,4 @@
+arkadiuszsas\norwegian_cards\database\CreateTable.class
 arkadiuszsas\norwegian_cards\App.class
+arkadiuszsas\norwegian_cards\database\DropTable.class
+arkadiuszsas\norwegian_cards\database\DatabaseManagement.class
