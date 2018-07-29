@@ -1,8 +1,14 @@
 arkadiuszsas\norwegian_cards\database\DropCategory.class
-arkadiuszsas\norwegian_cards\database\DatabaseManagement.class
-arkadiuszsas\norwegian_cards\display\MainFrame.class
+arkadiuszsas\norwegian_cards\display\WordsLabels.class
+arkadiuszsas\norwegian_cards\display\RandomWordButton$1.class
 arkadiuszsas\norwegian_cards\App.class
+arkadiuszsas\norwegian_cards\database\GetRandomWord.class
+arkadiuszsas\norwegian_cards\database\GetWord.class
+arkadiuszsas\norwegian_cards\database\DatabaseManagement.class
+arkadiuszsas\norwegian_cards\display\AddWordComponents$1.class
+arkadiuszsas\norwegian_cards\display\MainFrame.class
+arkadiuszsas\norwegian_cards\display\AddWordComponents.class
+arkadiuszsas\norwegian_cards\database\AddWord.class
 arkadiuszsas\norwegian_cards\database\CreateCategory.class
 arkadiuszsas\norwegian_cards\database\CloseConnection.class
 arkadiuszsas\norwegian_cards\display\RandomWordButton.class
-arkadiuszsas\norwegian_cards\display\InitComponents.class

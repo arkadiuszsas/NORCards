@@ -1,8 +1,12 @@
 C:\Software\projects\norwegian-cards\src\main\java\arkadiuszsas\norwegian_cards\database\DropCategory.java
+C:\Software\projects\norwegian-cards\src\main\java\arkadiuszsas\norwegian_cards\display\AddWordComponents.java
 C:\Software\projects\norwegian-cards\src\main\java\arkadiuszsas\norwegian_cards\display\RandomWordButton.java
+C:\Software\projects\norwegian-cards\src\main\java\arkadiuszsas\norwegian_cards\database\AddWord.java
 C:\Software\projects\norwegian-cards\src\main\java\arkadiuszsas\norwegian_cards\display\MainFrame.java
-C:\Software\projects\norwegian-cards\src\main\java\arkadiuszsas\norwegian_cards\display\InitComponents.java
 C:\Software\projects\norwegian-cards\src\main\java\arkadiuszsas\norwegian_cards\database\CreateCategory.java
+C:\Software\projects\norwegian-cards\src\main\java\arkadiuszsas\norwegian_cards\database\GetRandomWord.java
+C:\Software\projects\norwegian-cards\src\main\java\arkadiuszsas\norwegian_cards\database\GetWord.java
 C:\Software\projects\norwegian-cards\src\main\java\arkadiuszsas\norwegian_cards\database\CloseConnection.java
 C:\Software\projects\norwegian-cards\src\main\java\arkadiuszsas\norwegian_cards\database\DatabaseManagement.java
+C:\Software\projects\norwegian-cards\src\main\java\arkadiuszsas\norwegian_cards\display\WordsLabels.java
 C:\Software\projects\norwegian-cards\src\main\java\arkadiuszsas\norwegian_cards\App.java
