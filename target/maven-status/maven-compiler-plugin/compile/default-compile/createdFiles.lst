@@ -4,3 +4,5 @@ arkadiuszsas\norwegian_cards\display\MainFrame.class
 arkadiuszsas\norwegian_cards\App.class
 arkadiuszsas\norwegian_cards\database\CreateCategory.class
 arkadiuszsas\norwegian_cards\database\CloseConnection.class
+arkadiuszsas\norwegian_cards\display\RandomWordButton.class
+arkadiuszsas\norwegian_cards\display\InitComponents.class

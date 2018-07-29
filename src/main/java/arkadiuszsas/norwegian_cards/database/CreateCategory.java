@@ -16,11 +16,12 @@ public class CreateCategory extends DatabaseManagement{
 		
 		String sql = "CREATE TABLE " + tableName + " " +
 	                "(id INT NOT NULL AUTO_INCREMENT, " +
-	                "norwegian VARCHAR(255) NOT NULL, " + 
-	                "english VARCHAR(255) NOT NULL, " +
-	                "category VARCHAR(255) NOT NULL, " +
-	                "norExample VARCHAR(255) NOT NULL, " +
-	                "engExample VARCHAR(255) NOT NULL, " +
+	                "NORWEGIAN VARCHAR(255) NOT NULL, " + 
+	                "ENGLISH VARCHAR(255) NOT NULL, " +
+	                "CATEGORY VARCHAR(255) NOT NULL, " +
+	                "NOREXAMPLE VARCHAR(255) NOT NULL, " +
+	                "ENGEXAMPLE VARCHAR(255) NOT NULL, " +
+	                "IMAGEPATH VARCHAR(255) NOT NULL, " +
 	                "PRIMARY KEY ( id ))"; 
 		
 		myStmt.executeUpdate(sql);
