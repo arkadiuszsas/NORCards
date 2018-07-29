@@ -53,5 +53,10 @@ public class MainFrame {
 		frame.add(addWord.createUserInputEnglishExample());
 		frame.add(addWord.createUserInputCategory());
 		frame.add(addWord.createUserInputImagePath());
+		
+		ChooseCategoryComponents category = new ChooseCategoryComponents();
+		frame.add(category.createCategoryLabel());
+		frame.add(category.createCategoryList(label.getNorwegianWordLabel(), label.getEnglishWordLabel(), label.getNorwegianExampleLabel(), label.getEnglishExampleLabel(), label.getImagePathLabel()));
+		//frame.add(category.createFruitsButton());
 	}
 }

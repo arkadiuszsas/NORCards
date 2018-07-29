@@ -14,12 +14,15 @@ public class App
     {
         System.out.println( "Hello World!" );
         
-        //new CreateCategory("FRUITS");
+        //uncomment if you want to add new category
+        //new CreateCategory("CATEGORY NAME");
+        
+        //uncomment if you want to delete category
+        //new DropCategory("CATEGORY NAME");
+        
         //display main frame
         new MainFrame();
         
-        //new AddWord("plomme (ei)", "Ei plomme er lilla.", "plum", "A plum is purple.", "FRUITS");
-        //new GetRandomWord();
         //DO NOT FORGET TO CLOSE CONNECTION!
         new CloseConnection();  
     }
