@@ -31,18 +31,18 @@ public class RandomWordButton {
 				try {
 					//get max word ID
 					GetRandomWord controller = new GetRandomWord();
-					int maxID = controller.getMaxID();
+					controller.getCategoryAndItsMaxID();
 					
 					//get random word ID
 					Random random = new Random();
-					int randomID = random.nextInt(maxID) + 1;
+					int randomID = random.nextInt(controller.maxID) + 1;
+									
+					norwegianWordLabel.setText(" Norwegian: " + controller.getNorwegianWord(controller.randomCategory, randomID));
+					englishWordLabel.setText(" English: " + controller.getEnglishWord(controller.randomCategory, randomID));
+					norExampleLabel.setText(" Norwegian example: " + controller.getNorwegianExample(controller.randomCategory, randomID));
+					engExampleLabel.setText(" English example: " + controller.getEnglishExample(controller.randomCategory, randomID));
 					
-					norwegianWordLabel.setText(" Norwegian: " + controller.getNorwegianWord(randomID));
-					englishWordLabel.setText(" English: " + controller.getEnglishWord(randomID));
-					norExampleLabel.setText(" Norwegian example: " + controller.getNorwegianExample(randomID));
-					engExampleLabel.setText(" English example: " + controller.getEnglishExample(randomID));
-					
-					imagePath.setIcon(new ImageIcon(controller.getImagePath(randomID)));
+					imagePath.setIcon(new ImageIcon(controller.getImagePath(controller.randomCategory, randomID)));
 				} 
 				
 				catch (SQLException e1) {
