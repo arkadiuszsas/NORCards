@@ -26,4 +26,4 @@ This project is created with:
 * Read words function. It is possible to chose a category or get a random word. <br><br>
 ![read-word](https://i.imgur.com/SanubOH.gif) <br>
 
-* You can read all words from the database and add your own words.
+* You can read all words from the database or add your own words.
