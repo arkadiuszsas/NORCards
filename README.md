@@ -23,7 +23,7 @@ This project is created with:
 
 ## Application
 
-* Read words function. It is possible to chose a category or get a random word. <br><br>
+* Function of the application that reads words. It is possible to choose a category or get a random word. <br><br>
 ![read-word](https://i.imgur.com/SanubOH.gif) <br>
 
 * You can read all words from the database or add your own words.
